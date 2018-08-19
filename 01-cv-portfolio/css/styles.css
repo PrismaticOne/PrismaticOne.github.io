@@ -109,7 +109,7 @@ b.max-bold{ font-weight: 700; }
 
 header{ position: absolute; top: 30px; left: 0; right: 0; z-index: 100; }
 
-header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #FFAD01; color: #fff; }
+header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #fdb515; color: #fff; }
 
 header .info{ margin-bottom: 10px; }
 
@@ -117,8 +117,8 @@ header .info .icon{ float: left; font-size: 30px; }
 
 header .info .right-area{ margin-left: 45px; }
 
-header .download-btn{ padding: 15px 30px; border: 1px solid #28023D; border-radius: 4px; float: right; margin-top: 30px;
-	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: #FFAD01; color: #fff; 
+header .download-btn{ padding: 15px 30px; border: 1px solid #28023D; border-radius: 4px; float: right; margin-top: 50px; 
+	box-shadow: inset 10 4px 4px rgba(0,0,0,.3); background: #fdb515; color: #fff; 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
@@ -128,9 +128,11 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 4. INTRO SECTION
 --------------------------------- */
 
-.intro-section{ padding-top: 200px; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(../../images/b19_side2.jpg); } 
-	/* TODO: Fix image positioning */
+.intro-section{ padding-top: 728px; 
+	background-position: bottom right; 
+	background-size: cover; z-index: 1; background-image: url(https://imgur.com/WjoC4Ib.jpg); 
+	/* position: relative; */
+} 
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
@@ -149,7 +151,7 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; background: #887392; color: #fff; }
 
 .intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	top: 0; z-index: -1; border-radius: 20px; background: #FFA804; 
+	top: 0; z-index: -1; border-radius: 20px; background: #fdb515; 
 	-webkit-transition: all .2s ease; transition: all .2s ease;
 	-webkit-transform: scale(0); transform: scale(0); }
 
@@ -157,7 +159,7 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 
 
 /* ---------------------------------
-5. PORFOLIO SECTION
+5. PORTFOLIO SECTION
 --------------------------------- */
 
 .portfolio-section{ padding-bottom: 0; }
@@ -166,7 +168,7 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 
 .portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
 
-.portfolio-section .portfolioFilter a.current{  color: #FFA804; }
+.portfolio-section .portfolioFilter a.current{  color: #fdb515; }
 
 .portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
 
@@ -228,7 +230,7 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 --------------------------------- */
 
 .counter-section{ position: relative; padding: 100px 0 70px; background-size: cover; z-index: 1; 
-	background-image: url(../../images/slider-2-1920x600.jpg); color: #fff; }
+	background-image: url(../../images/slider-4-1920x600.jpg); color: #fff; }
 	/* TODO: change background image */
 
 .counter-section:after{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
