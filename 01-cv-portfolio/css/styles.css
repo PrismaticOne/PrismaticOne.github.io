@@ -135,7 +135,7 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 } 
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .2); }
+	right: 0; background:  #fff;  }
 	
 .intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
 	height: 150px; z-index: -1; background: #fff; }
@@ -185,7 +185,7 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 6. ABOUT SECTION
 --------------------------------- */
 
-.radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
+.radial-progress{ position: relative; max-width: 250px; margin: 0 auto; }
 
 .radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500; 
 	padding-bottom: 25px!important; color: #333!important; }
