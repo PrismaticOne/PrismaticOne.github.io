@@ -188,7 +188,7 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 .radial-progress{ position: relative; max-width: 250px; margin: 0 auto; }
 
 .radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500; 
-	padding-bottom: 25px!important; color: #333!important; }
+	padding-bottom: 50px!important; color: #333!important; }
 
 .radial-progress .progressbar-text:after{ content:'%'; }
 
