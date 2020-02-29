@@ -234,7 +234,7 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 	/* TODO: change background image */
 
 .counter-section:after{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .2); }
+	right: 0; background: rgb(48, 197, 197); }
 
 .counter{ position: relative; }
 	
@@ -254,7 +254,7 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 .radial-progress .progressbar-text:after{ content:'%'; }
 
 .radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
-	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: rgb(48, 197, 197); }
+	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #fff; }
 
 	
 	
