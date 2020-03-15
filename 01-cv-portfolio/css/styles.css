@@ -58,7 +58,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #FFA804; }
+a b.light-color:hover{ text-decoration: none; color: #FBD1A2; } /* #FFA804 */
 
 b{ font-weight: 600; }
 
@@ -118,7 +118,7 @@ header .info .icon{ float: left; font-size: 30px; }
 header .info .right-area{ margin-left: 45px; }
 
 header .download-btn{ padding: 15px 30px; border: 1px solid #28023D; border-radius: 4px; float: right; margin-top: 50px; 
-	box-shadow: inset 10 4px 4px rgba(0,0,0,.3); background: #fdb515; color: #fff; 
+	box-shadow: inset 10 4px 4px rgba(0,0,0,.3); background: #9dd9d2; color: #fff; 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
@@ -168,7 +168,7 @@ header .download-btn:hover{ -webkit-transform: translateY(-4px); transform: tran
 
 .portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
 
-.portfolio-section .portfolioFilter a.current{  color: #fdb515; }
+.portfolio-section .portfolioFilter a.current{  color:#fbd1a2 ; } /* #fbd515 */
 
 .portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
 
